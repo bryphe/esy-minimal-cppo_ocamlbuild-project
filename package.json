@@ -1,0 +1,24 @@
+{
+  "name": "esy-minimal-cppo_ocamlbuild-project",
+  "version": "0.1.0",
+  "description": "Reason workflow with Esy",
+  "license": "MIT",
+  "esy": {
+    "build": [
+      [
+        "ocamlfind",
+        "ocamlbuild"
+      ]
+    ],
+    "buildsInSource": "_build"
+  },
+  "peerDependencies": {
+    "ocaml": "~4.6.0"
+  },
+  "devDependencies": {
+    "ocaml": "~4.6.0"
+  }, 
+  "dependencies": {
+    "@opam/cppo_ocamlbuild": "*"
+  }
+}
